@@ -52,7 +52,7 @@
           id="inp"
           placeholder="Write a Food Name..."
         />
-        <button class="search-button" type="submit">
+        <button class="show-modal" type="submit">
           <i class="fas fa-search"></i>
         </button>
       </div>
@@ -61,6 +61,38 @@
         <img src="Images/gigachad.png" alt="gigachad image" />
       </div>
     </main>
+    <div>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+
+        <table cellspacing="40">
+          <caption>
+            FOOD SELECTED
+          </caption>
+          <thead>
+            <tr>
+              <th>Nutrient</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Protein</td>
+              <td>xx mg</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td>xx mg</td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td>xx mg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
 
     <script src="script.js" async defer></script>
   </body>
