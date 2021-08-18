@@ -26,3 +26,6 @@ document.addEventListener("keydown", function (e) {
     closeModal();
   }
 });
+
+//Check Data can be accessed by script => ok
+console.log(data);

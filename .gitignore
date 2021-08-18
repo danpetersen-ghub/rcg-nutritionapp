@@ -1,0 +1,11 @@
+//following this advice: https://gist.github.com/derzorngottes/3b57edc1f996dddcab25
+
+var config = {
+  MY_KEY : '123456',
+  SECRET_KEY : '56789',
+  KEY_2 : '101010'
+}
+
+
+//API URL
+https://api.nal.usda.gov/fdc/v1/foods/search?query=apple&pageSize=2&api_key=fDCtfxZVYAlFgDodxXfa3ix4gGRamuBxu9uPcE1Y
