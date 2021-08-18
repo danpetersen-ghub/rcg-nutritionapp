@@ -30,12 +30,14 @@
       </p>
     <![endif]-->
     <main class="container">
-      <h1>Nutrients <br />For The <br />Bros</h1>
+      <div>
+        <h1>Nutrients <br />For The <br />Bros</h1>
+      </div>
 
       <div class="list">
         <ol>
           <li>
-            Check for food <br />
+            Search for food <br />
             data
           </li>
           <li>Eat healthy</li>
@@ -44,8 +46,13 @@
       </div>
 
       <div class="input">
-        <input type="text" class="input-field" id="inp" placeholder="" />
-        <button class="search-button" type="submit">
+        <input
+          type="text"
+          class="input-field"
+          id="inp"
+          placeholder="Write a Food Name..."
+        />
+        <button class="show-modal" type="submit">
           <i class="fas fa-search"></i>
         </button>
       </div>
@@ -54,7 +61,39 @@
         <img src="Images/gigachad.png" alt="gigachad image" />
       </div>
     </main>
+    <div>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
 
+        <table cellspacing="40">
+          <caption>
+            FOOD SELECTED
+          </caption>
+          <thead>
+            <tr>
+              <th>Nutrient</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Protein</td>
+              <td>xx mg</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td>xx mg</td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td>xx mg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+    <script src="data.js" ></script>
     <script src="script.js" async defer></script>
   </body>
 </html>
