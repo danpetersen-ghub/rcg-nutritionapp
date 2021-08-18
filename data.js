@@ -1,4 +1,4 @@
-const data = {
+const data = [{
   "totalHits": 21874,
   "currentPage": 1,
   "totalPages": 10937,
@@ -227,4 +227,4 @@ const data = {
       },
       "nutrients": {}
   }
-}
+}]
