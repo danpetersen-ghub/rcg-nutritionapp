@@ -1,4 +1,6 @@
-"use strict";
+//import TOKEN from '/config';
+
+//console.log(TOKEN);
 
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
